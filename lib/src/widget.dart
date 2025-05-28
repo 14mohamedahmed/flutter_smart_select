@@ -968,7 +968,7 @@ abstract class S2State<T> extends State<SmartSelect<T>> {
       headerStyle: S2ModalHeaderStyle(
         backgroundColor: widget.modalConfig?.isFullPage != true ? theme.cardColor : null,
         textStyle:
-            widget.modalConfig?.isFullPage != true ? theme.textTheme.headline6 : theme.primaryTextTheme.headline6,
+            widget.modalConfig?.isFullPage != true ? theme.textTheme.titleLarge : theme.primaryTextTheme.titleLarge,
         iconTheme: widget.modalConfig?.isFullPage != true ? theme.iconTheme : null,
         errorStyle: TextStyle(
           fontSize: 13.5,
